@@ -1,1 +1,3 @@
 # Lab 8 - Starter
+1) Where would you fit your automated tests in your Recipe project development pipeline? 
+Within a Github action that runs whenever code is pushed, since then it would ensure that code committed by contributors to different branches of the project is checked before merging it into the main branch. It works in the situation where you have a trusted team of project managers that have access to the main branch and everyone else contributes code by merging separate branches. By doing it this way, changes always can be checked if they pass the tests before being merged into the main branch.
